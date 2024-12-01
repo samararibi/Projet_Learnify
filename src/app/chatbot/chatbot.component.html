@@ -1,0 +1,22 @@
+<div class="chatbot-container">
+  <div class="chatbot-header">
+    <span>🤖 Chatbot</span>
+    <button class="close-btn">×</button>
+  </div>
+  <div class="chatbot-body">
+    <!-- Messages -->
+    <div class="chat-message user-message">
+      Bonjour, comment puis-je vous aider ?
+    </div>
+   
+  </div>
+  <div class="chatbot-footer">
+    <input
+      type="text"
+      class="chat-input"
+      [(ngModel)]="userMessage"
+      placeholder="Write a message..."
+    />
+    <button class="send-btn">➤</button>
+  </div>
+</div>

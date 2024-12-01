@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Learnify';
+  isChatVisible: boolean = false;
+
+  toggleChat() {
+    this.isChatVisible = !this.isChatVisible;
+  }
 }
+
